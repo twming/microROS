@@ -22,11 +22,11 @@ void RosCommunication::initialize(){
     Serial.println("Display Setup");
 
     // Adding Wifi
-    IPAddress agent_ip(192, 168, 0, 152);
+    IPAddress agent_ip(xxx, xxx, xxx, xxx);
     size_t agent_port = 8888;
 
-    char ssid[] = "M1-Nautilus";
-    char psk[]= "GoMicron88";
+    char ssid[] = "xxxxxx";
+    char psk[]= "xxxxxx";
 
     set_microros_wifi_transports(ssid, psk, agent_ip, agent_port);
     // set_microros_serial_transports(Serial);
